@@ -220,8 +220,8 @@ with tab_overview:
 
     if pnl["operating_profit"] > 0:
         st.success(
-            f" A forgatókönyv profitábilis.\n "
-            f"Az induló {params.capex_usd:,.0f} CAPEX {payback_m:.1f} hónap alatt megtérül \n "
+            f" A forgatókönyv profitábilis. "
+            f"Az induló {params.capex_usd:,.0f} CAPEX {payback_m:.1f} hónap alatt megtérül és "
             f"az 1. év végére kumulált szabad cash: {cf_df['cumulative_cf'].iloc[-1]:,.0f}."
         )
     else:
