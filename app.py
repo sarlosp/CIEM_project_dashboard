@@ -220,13 +220,13 @@ with tab_overview:
 
     if pnl["operating_profit"] > 0:
         st.success(
-            f" **A forgatókönyv profitábilis.** "
-            f"Az induló ${params.capex_usd:,.0f} CAPEX **{payback_m:.1f} hónap** alatt megtérül; "
-            f"az 1. év végére kumulált szabad cash: **${cf_df['cumulative_cf'].iloc[-1]:,.0f}**."
+            f" A forgatókönyv profitábilis. "
+            f"Az induló ${params.capex_usd:,.0f} CAPEX {payback_m:.1f} hónap alatt megtérül; "
+            f"az 1. év végére kumulált szabad cash: ${cf_df['cumulative_cf'].iloc[-1]:,.0f}."
         )
     else:
         st.error(
-            f" **A jelenlegi mix veszteséges!** "
+            f" A jelenlegi mix veszteséges! "
             f"Havi operating profit: ${pnl['operating_profit']:,.0f}. "
             "Növeld a volumeneket vagy csökkentsd a fix költséget."
         )
