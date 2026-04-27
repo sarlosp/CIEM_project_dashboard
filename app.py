@@ -67,7 +67,7 @@ st.markdown(
 def make_sidebar() -> M.ModelParams:
     """Az összes paramétert ide rakjuk – a függvény visszaad egy ModelParams-t."""
     st.sidebar.header("Paraméterek")
-    st.sidebar.markdown("Állítsd a sliderekkel valós időben. Az értékek a kutatási dokumentum sávjaiból jönnek.")
+    st.sidebar.markdown("Állítsd a sliderekkel valós időben. Az értékek a kutatási dokumentumból jönnek.")
 
     with st.sidebar.expander("Eladási volumen (db/hó)", expanded=True):
         units_entry = st.slider("Belépő modell", 0, 60, 20, step=1)
