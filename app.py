@@ -52,7 +52,7 @@ st.markdown("""
 # ============================================================
 # CÍM ÉS BEVEZETŐ
 # ============================================================
-st.title("CIEM Startup – Pénzügyi Dashboard")
+st.title("CIEM Startup (MeinOhr) – Pénzügyi Dashboard")
 st.markdown(
     "<p style='color:#555; margin-top:-0.5rem; margin-bottom:1rem;'>"
     "Prémium Custom In-Ear Monitor gyártó startup interaktív elemző felülete · "
