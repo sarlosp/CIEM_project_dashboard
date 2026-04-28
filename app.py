@@ -52,13 +52,19 @@ st.markdown("""
 # ============================================================
 # CÍM ÉS BEVEZETŐ
 # ============================================================
-st.title("CIEM Startup (MeinOhr) – Pénzügyi Dashboard")
-st.markdown(
-    "<p style='color:#555; margin-top:-0.5rem; margin-bottom:1rem;'>"
-    "Prémium Custom In-Ear Monitor gyártó startup interaktív elemző felülete · "
-    "Budapest, BME bázisú, 6 fős mérnökcsapat"
-    "</p>", unsafe_allow_html=True
-)
+title_col, logo_col = st.columns([0.85, 0.15])
+
+with title_col:
+    st.title("CIEM Startup (MeinOhr) – Pénzügyi Dashboard")
+    st.markdown(
+        "<p style='color:#555; margin-top:-0.5rem; margin-bottom:1rem;'>"
+        "Prémium Custom In-Ear Monitor gyártó startup interaktív elemző felülete · "
+        "Budapest, BME bázisú, 6 fős mérnökcsapat"
+        "</p>", unsafe_allow_html=True
+    )
+
+with logo_col:
+    st.image("meinohr.png", use_container_width=True)
 
 
 # ============================================================
