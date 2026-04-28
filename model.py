@@ -331,7 +331,7 @@ def ltv_cac(p: ModelParams) -> dict:
 # ============================================================
 
 SCENARIOS = {
-    "Pesszimista (worst)": {
+    "Pesszimista": {
         "growth_rate":     0.10,
         "vol_mult":        0.6,    # 40%-kal kevesebb induló eladás
         "cac_mult":        1.4,    # drágább akvizíció
@@ -339,7 +339,7 @@ SCENARIOS = {
         "opex_mult":       1.10,   # béremelési nyomás
         "discount_rate":   0.30,
     },
-    "Realista (base)": {
+    "Realista": {
         "growth_rate":     0.30,
         "vol_mult":        1.0,
         "cac_mult":        1.0,
@@ -347,7 +347,7 @@ SCENARIOS = {
         "opex_mult":       1.0,
         "discount_rate":   0.20,
     },
-    "Optimista (best)": {
+    "Optimista": {
         "growth_rate":     0.55,
         "vol_mult":        1.4,
         "cac_mult":        0.75,   # endorsement átüt, organikus növekedés
