@@ -67,7 +67,7 @@ def chart_unit_economics(ue: pd.DataFrame, cac: float) -> go.Figure:
             xref=f"x{i}", yref=f"y{i}",
             x="Contribution", y=contrib/2,
             text=f"<b>{margin_pct:.0f}%</b><br>margin",
-            showarrow=False, font=dict(size=14, color="black", family="Arial Black"),
+            showarrow=False, font=dict(size=14, color="white", family="Arial Black"),
         )
 
     fig.update_layout(
