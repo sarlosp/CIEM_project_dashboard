@@ -23,7 +23,7 @@ import charts as C
 # OLDAL-KONFIG
 # ============================================================
 st.set_page_config(
-    page_title="CIEM Startup – Pénzügyi Dashboard",
+    page_title="CIEM Startup (MeinOhr) – Pénzügyi Dashboard",
     page_icon="",
     layout="wide",
     initial_sidebar_state="expanded",
