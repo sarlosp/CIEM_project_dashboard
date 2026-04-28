@@ -48,7 +48,7 @@ def chart_unit_economics(ue: pd.DataFrame, cac: float) -> go.Figure:
         fig.add_trace(go.Waterfall(
             name=tier, orientation="v",
             measure=["absolute", "relative", "relative", "total"],
-            x=["Bevétel", "– COGS", "– CAC", "Contribution"],
+            x=["Bevétel", " COGS", "CAC", "Contribution"],
             y=[price, -cogs, -cac, 0],   # az utolsó "total"
             text=[f"${price:,.0f}", f"-${cogs:,.0f}",
                   f"-${cac:,.0f}", f"${contrib:,.0f}"],
