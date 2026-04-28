@@ -183,7 +183,7 @@ with tab_overview:
     with c1:
         st.subheader("Havi P&L bontás")
         pnl_df = pd.DataFrame({
-            "Tétel": ["Bevétel", "– COGS", "Bruttó profit", "– CAC", "– Fix OPEX", "Operating profit"],
+            "Tétel": ["Bevétel", "COGS", "Bruttó profit", "CAC", "Fix OPEX", "Operating profit"],
             "USD/hó": [pnl["revenue"], -pnl["cogs"], pnl["gross_profit"],
                       -pnl["cac_total"], -pnl["fixed_opex"], pnl["operating_profit"]],
             "USD/év": [pnl["revenue"]*12, -pnl["cogs"]*12, pnl["gross_profit"]*12,
