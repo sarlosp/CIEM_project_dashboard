@@ -177,7 +177,7 @@ tab_overview, tab_unit, tab_breakeven, tab_forecast, tab_dcf, tab_scenarios, tab
 # TAB 1 – ÁTTEKINTÉS
 # ============================================================
 with tab_overview:
-    st.header("Vezetői összefoglaló")
+    st.header("Összefoglaló")
 
     c1, c2 = st.columns([0.55, 0.45])
     with c1:
