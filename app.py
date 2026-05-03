@@ -176,7 +176,7 @@ tab_overview, tab_unit, tab_breakeven, tab_forecast, tab_dcf, tab_scenarios, tab
     "Scenarios",
     "Monte Carlo",
     "Érzékenység",
-    "Ingyen SÖR",
+    "Sör",
 ])
 
 
@@ -556,7 +556,7 @@ with tab_tornado:
 with tab_sor:
     st.header("Ingyen sör")
     st.markdown(
-        "Ha Ide eljutottál, vendégül látunk egy sörre! Köszi hogy felfedezted az appot és végighallgattál minket :)) "
+        "Ha ide eljutottál, vendégül látunk egy sörre! Köszi hogy felfedezted az appot és végighallgattál minket :)) "
     )
 # ============================================================
 # LÁBLÉC
