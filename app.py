@@ -556,7 +556,7 @@ with tab_tornado:
 with tab_sor:
     st.header("Ingyen sör")
     st.markdown(
-        "**Ha Ide eljutottál, vendégül látunk egy sörre! Köszi hogy felfedezted az appot és végighallgattál minket :)) "
+        "Ha Ide eljutottál, vendégül látunk egy sörre! Köszi hogy felfedezted az appot és végighallgattál minket :)) "
     )
 # ============================================================
 # LÁBLÉC
