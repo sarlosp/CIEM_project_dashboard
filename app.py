@@ -167,7 +167,7 @@ st.markdown("---")
 # ============================================================
 # TAB-OK – 6 elemzési modul
 # ============================================================
-tab_overview, tab_unit, tab_breakeven, tab_forecast, tab_dcf, tab_scenarios, tab_mc, tab_tornado = st.tabs([
+tab_overview, tab_unit, tab_breakeven, tab_forecast, tab_dcf, tab_scenarios, tab_mc, tab_tornado, tab_sor = st.tabs([
     "Áttekintés",
     "Unit Economics",
     "Break-even",
@@ -176,6 +176,7 @@ tab_overview, tab_unit, tab_breakeven, tab_forecast, tab_dcf, tab_scenarios, tab
     "Scenarios",
     "Monte Carlo",
     "Érzékenység",
+    "Ingyen SÖR",
 ])
 
 
@@ -552,7 +553,11 @@ with tab_tornado:
             hide_index=True, use_container_width=True,
         )
 
-
+with tab_sor:
+    st.header("Ingyen sör")
+    st.markdown(
+        "**Ha Ide eljutottál, vendégül látunk egy sörre! Köszi hogy felfedezted az appot és végighallgattál minket :)) "
+    )
 # ============================================================
 # LÁBLÉC
 # ============================================================
