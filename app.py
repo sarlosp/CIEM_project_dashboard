@@ -564,7 +564,6 @@ with tab_sor:
 st.markdown("---")
 st.markdown(
     '<div class="source-note">'
-    '<b>Adatforrás:</b> "Startup Költségkutatás és Pénzügyi Modell" – CIEM piaci jelentés. '
     'Számítások 390 HUF/EUR, 1.07 USD/EUR középárfolyamokkal. '
     'A modell tudatosan egyszerűsít: FCF ≈ Nettó profit, KIVA közvetve a fix OPEX-ben. '
     'Részletes értékelési modellhez (taxshield, működő tőke, befektetett eszközök stb.) bővítendő.'
